@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Bash(git ls-remote *)",
+      "Bash(netsh winhttp *)",
+      "Bash(curl -I --connect-timeout 10 https://github.com)",
+      "Skill(update-config)",
+      "WebFetch(domain:github.com)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(timeout 15 git clone git@github.com:Leonxlnx/taste-skill.git /tmp/taste-skill)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(env)",
+      "Bash(npm config *)",
+      "Bash(reg query *)",
+      "Bash(echo \"Git proxy configured: $\\(git config --global http.proxy\\)\")",
+      "Bash(git clone *)",
+      "Bash(export HTTP_PROXY=http://127.0.0.1:7897)",
+      "Bash(export HTTPS_PROXY=http://127.0.0.1:7897)",
+      "WebSearch",
+      "Bash(pip --version)",
+      "Bash(py --version)",
+      "Bash(where python *)",
+      "Read(//c/Users/choxs/AppData/Local/Programs/**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Read(//c/Users/choxs/**)",
+      "Bash(winget --version)",
+      "Bash(winget install *)",
+      "Bash(export PATH=\"$PATH:/c/Users/choxs/AppData/Local/Programs/Python/Python312:/c/Users/choxs/AppData/Local/Programs/Python/Python312/Scripts\")",
+      "Bash(/c/Users/choxs/AppData/Local/Programs/Python/Python312/python.exe *)",
+      "Bash(export PATH=\"/c/Users/choxs/AppData/Local/Programs/Python/Python312:/c/Users/choxs/AppData/Local/Programs/Python/Python312/Scripts:$PATH\")",
+      "Bash(pip install *)",
+      "Bash(converter --help)",
+      "Bash(cmd.exe /c \"converter.bat --help\")",
+      "Bash(python -m converter.cli --help)"
+    ]
+  }
+}

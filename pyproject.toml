@@ -1,0 +1,19 @@
+[project]
+name = "pdf-converter"
+version = "0.1.0"
+description = "PDF to Markdown/TXT converter powered by marker"
+requires-python = ">=3.10"
+dependencies = [
+    "marker-pdf[full]>=1.0.0",
+    "click>=8.0.0",
+]
+
+[project.scripts]
+converter = "converter.cli:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["converter"]

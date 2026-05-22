@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: pdf-converter
+Version: 0.1.0
+Summary: PDF to Markdown/TXT converter powered by marker
+Requires-Python: >=3.10
+Requires-Dist: marker-pdf[full]>=1.0.0
+Requires-Dist: click>=8.0.0
