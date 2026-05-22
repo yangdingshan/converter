@@ -34,7 +34,8 @@
       "Bash(pip install *)",
       "Bash(converter --help)",
       "Bash(cmd.exe /c \"converter.bat --help\")",
-      "Bash(python -m converter.cli --help)"
+      "Bash(python -m converter.cli --help)",
+      "Bash(conv --help)"
     ]
   }
 }

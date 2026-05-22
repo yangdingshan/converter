@@ -38,52 +38,52 @@ pip install -e .
 
 ```bash
 # PDF → Markdown（默认）
-converter report.pdf
+conv report.pdf
 
 # 指定输出
-converter report.pdf -o result.md
+conv report.pdf -o result.md
 ```
 
 ### 批量转换
 
 ```bash
 # 整个目录
-converter ./pdfs/
+conv ./pdfs/
 
 # 通配符
-converter "./docs/*.pdf"
+conv "./docs/*.pdf"
 
 # 指定输出目录
-converter ./pdfs/ -o ./output/
+conv ./pdfs/ -o ./output/
 ```
 
 ### 输出格式
 
 ```bash
 # Markdown（默认）
-converter report.pdf -f md
+conv report.pdf -f md
 
 # 纯文本
-converter report.pdf -f txt
+conv report.pdf -f txt
 ```
 
 ### 图片处理
 
 ```bash
 # 默认：提取到 images/ 文件夹，markdown 中相对路径引用
-converter report.pdf
+conv report.pdf
 
 # 不提取图片
-converter report.pdf --no-images
+conv report.pdf --no-images
 
 # Base64 内嵌（单文件方便分发）
-converter report.pdf --embed-images
+conv report.pdf --embed-images
 ```
 
 ### 扫描件 PDF
 
 ```bash
-converter scanned.pdf --ocr
+conv scanned.pdf --ocr
 ```
 
 ## 输出结构
@@ -106,12 +106,12 @@ output/报告/
 
 ## 故障排查
 
-**`converter` 命令找不到：**
+**`conv` 命令找不到：**
 
 设置 → 应用 → 高级应用设置 → 应用执行别名 → 关闭 `python.exe` / `python3.exe`。关掉终端重开。
 
-或直接用项目里的 `converter.bat` 替代：
+或直接用项目里的 `conv.bat` 替代：
 
 ```bash
-converter.bat report.pdf
+conv.bat report.pdf
 ```

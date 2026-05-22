@@ -1,2 +1,2 @@
 [console_scripts]
-converter = converter.cli:main
+conv = converter.cli:main

@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 converter/__init__.py
 converter/cli.py

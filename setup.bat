@@ -24,13 +24,13 @@ pip install -r requirements.txt
 echo.
 echo =====================================
 echo   安装完成！
-echo   命令: converter   单文件转换
-echo         converter   批量转换
+echo   命令: conv   单文件转换
+echo         conv   批量转换
 echo =====================================
 echo.
 echo 用法示例:
-echo   converter report.pdf
-echo   converter D:\pdfs\
-echo   converter report.pdf -f txt
+echo   conv report.pdf
+echo   conv D:\pdfs\
+echo   conv report.pdf -f txt
 echo.
 pause
